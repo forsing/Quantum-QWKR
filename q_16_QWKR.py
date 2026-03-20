@@ -17,8 +17,8 @@ np.random.seed(SEED)
 random.seed(SEED)
 algorithm_globals.random_seed = SEED
 
-CSV_DRAWN = "/Users/4c/Desktop/GHQ/data/loto7hh_4582_k22.csv"
-CSV_ALL   = "/Users/4c/Desktop/GHQ/data/kombinacijeH_39C7.csv"
+CSV_DRAWN = "/data/loto7hh_4582_k22.csv"
+CSV_ALL   = "/data/kombinacijeH_39C7.csv"
 
 MIN_VAL = [1, 2, 3, 4, 5, 6, 7]
 MAX_VAL = [33, 34, 35, 36, 37, 38, 39]
@@ -184,7 +184,7 @@ if __name__ == "__main__":
 
 
 """
-Ucitano izvucenih kombinacija: 4580
+Ucitano izvucenih kombinacija: 4582
 Graf svih kombinacija: /Users/4c/Desktop/GHQ/data/kombinacijeH_39C7.csv
   Primer: [1, 2, 3, 4, 5, 6, 7] ... [1, 2, 3, 4, 5, 6, 9]
 
@@ -205,16 +205,11 @@ Graf svih kombinacija: /Users/4c/Desktop/GHQ/data/kombinacijeH_39C7.csv
   Poz 4 [4-36]: 23:0.064 | 21:0.063 | 18:0.063
   Poz 5 [5-37]: 29:0.065 | 26:0.063 | 27:0.063
   Poz 6 [6-38]: 33:0.083 | 32:0.081 | 35:0.080
-  Poz 7 [7-39]: 7:0.181 | 38:0.153 | 37:0.132
+  Poz 7 [7-39]: 7:0.182 | 38:0.153 | 37:0.132
 
 ==================================================
 Predikcija (QWKR, deterministicki, seed=39):
-[1, 8, 13, 23, 29, 33, 38]
-==================================================
-
-==================================================
-Predikcija (QWKR, deterministicki, seed=39):
-[1, 8, 13, 23, 29, 33, 38]
+[1, 8, x, y, z, 33, 38]
 ==================================================
 """
 
